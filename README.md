@@ -1,0 +1,2 @@
+# CompetitiveCoding
+Self Interest
