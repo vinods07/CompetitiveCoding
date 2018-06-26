@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int lcs(vector<int> arr, int n){
+int lia(vector<int> arr, int n){
 	int max_len= 0;
 	vector<int> temp(n);
 	for(int i=0;i<n;i++){
@@ -26,5 +26,5 @@ int main(){
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}
-	cout<<lcs(arr, n)<<endl;
+	cout<<lia(arr, n)<<endl;
 }
