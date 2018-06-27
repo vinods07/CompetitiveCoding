@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-//given a string find longest common subsequence(consecutive) such that it is a palindrome
+//given a string find longest common subsequence(non consecutive) such that it is a palindrome
 
 int max(int a, int b){
 	if(a>b)
