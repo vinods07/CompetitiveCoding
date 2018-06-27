@@ -2,7 +2,9 @@
 #include <vector>
 using namespace std;
 
-int lia(vector<int> arr, int n){
+//find longest increasing subsequence in an array of numbers(not necessarily consecutive)
+
+int lis(vector<int> arr, int n){
 	int max_len= 0;
 	vector<int> temp(n);
 	for(int i=0;i<n;i++){
@@ -26,5 +28,5 @@ int main(){
 	for(int i=0;i<n;i++){
 		cin>>arr[i];
 	}
-	cout<<lia(arr, n)<<endl;
+	cout<<lis(arr, n)<<endl;
 }
