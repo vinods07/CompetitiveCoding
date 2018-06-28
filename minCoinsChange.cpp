@@ -3,7 +3,8 @@
 #include <vector>
 #include <map>
 using namespace std;
-
+//Given an anount V and coins change int an array find minimum coins that can be used
+//to tender the exact change
 
 //complexity exponential
 int min_coins1(vector<int> values, int n, int v){
