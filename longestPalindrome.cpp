@@ -10,6 +10,8 @@ int max(int a, int b){
 	else return b;
 }
 
+//we store the max length of palindrome subseq in the array arr[start][end] between index start and end
+//and the use this value instead recursing it again(avoiding overlapping)
 int l_palindrome(string str, int** arr, int start, int end){
 	if(arr[start][end]!=0)
 		return arr[start][end];
