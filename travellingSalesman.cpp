@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 //given set of n cities and distance between each of them find the distance of each city from the source
+//Solution for brute force method
+//the complexity is in the order factorials
+//efficient solution is possible
 #define v 4	//number of vertices
 
 int min_dist(int distances[][v], int source){
